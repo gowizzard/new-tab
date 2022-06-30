@@ -1,0 +1,15 @@
+{
+    "name": "New tab",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "This small plugin creates a \"new tab\" page. On this page the current time with the timezone and the external ip address is displayed. We use ipify.org for the ip address.",
+    "icons": {
+        "192": "img/icons/icon-chrome-192x192.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
