@@ -7,7 +7,7 @@ setInterval(function() {
 chrome.storage.sync.get((data) => {
 
     // Check if ip address is stored
-    if (data.ipAddress.length > 0) {
+    if (data.ipAddres) {
         document.querySelector("#ip-address").innerHTML = data.ipAddress
     }
 
