@@ -1,5 +1,5 @@
-/* Define colors */
-/* Change html elements */
+/* First define colors & change the html elements */
+/* Then change styling for classes, ids & more */
 html {
   color: #fa7970;
   background-color: #161b22;
@@ -10,7 +10,6 @@ main {
   font-size: 1rem;
 }
 
-/* Change classes & ids */
 #current-time {
   position: absolute;
   top: 25px;
